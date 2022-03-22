@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-pipelines-master.flake = false;
+  inputs.src-pipelines-master.ref   = "refs/heads/master";
   inputs.src-pipelines-master.owner = "calebwin";
-  inputs.src-pipelines-master.ref   = "master";
   inputs.src-pipelines-master.repo  = "pipelines";
   inputs.src-pipelines-master.type  = "github";
   
