@@ -11,6 +11,7 @@
   inputs.src-pipelines-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-pipelines-v0_1_0.owner = "calebwin";
   inputs.src-pipelines-v0_1_0.repo  = "pipelines";
+  inputs.src-pipelines-v0_1_0.dir   = "";
   inputs.src-pipelines-v0_1_0.type  = "github";
   
   inputs."python".owner = "nim-nix-pkgs";
