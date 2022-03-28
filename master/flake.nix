@@ -11,7 +11,6 @@
   inputs.src-pipelines-master.ref   = "refs/heads/master";
   inputs.src-pipelines-master.owner = "calebwin";
   inputs.src-pipelines-master.repo  = "pipelines";
-  inputs.src-pipelines-master.dir   = "";
   inputs.src-pipelines-master.type  = "github";
   
   inputs."python".owner = "nim-nix-pkgs";
